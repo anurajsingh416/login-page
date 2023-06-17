@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Form</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Sign In</h1>
+            <div class="inputcontainer">
+                <input type="email" required placeholder="a" class="input">
+                <label for="email">Email</label>
+            </div>
+            <div class="inputcontainer">
+                <input type="text" required placeholder="a"  class="input">
+                <label for="Username">Username</label>
+            </div>
+            <div class="inputcontainer">
+                <input type="password"  required placeholder="a" id="pass1" class="input">
+                <label for="password">Password</label>
+            </div>
+            <div class="inputcontainer">
+                <input type="password"  required placeholder="a" id="pass2" class="input">
+                <label for="password">Confirm Password  </label>
+            </div>
+            <div class="show">
+                <input type="checkbox" name="show" class="showpass" onclick="showpassword()" id="">
+                <l>Show Password</l>
+            </div>
+            <a href="form.html" >Forgot Password?</a>
+                <p class="create">
+                    Don't have account? <a href="index.html">Sign up</a>
+                </p>
+                <input type="submit" class="btn" value="Sign In">
+                
+        </form>
+    </div>
+    <script src="signin.js"></script>
+</body>
+</html>

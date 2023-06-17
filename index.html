@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create account</title>
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Sign up</h1>
+            <span><div class="inputcontainer">
+                <input type="text" name="" required placeholder="a" class="input side" id="">
+                <label for="name">First Name</label>
+            </div>    
+            <div class="inputcontainer">
+                <input type="text" name="" required placeholder="a" class="input side" id="">
+                <label for="name">Last Name</label></span>
+            </div>
+            <div class="inputcontainer">
+                <input type="email" name="" required placeholder="a" class="input" id="">
+                <label for="email">Username</label>
+            </div>
+            <p  class="instruct">
+                You can use letters,numbers & periods
+            </p>
+            <div class="inputcontainer">
+                <input type="password"  required placeholder="a" class="input">
+                <label for="password">Password</label>
+            </div>
+            <div class="inputcontainer">
+                <input type="password"  required placeholder="a" class="input">
+                <label for="password">Confirm Password  </label>
+            </div>
+            <p class="instruct"> 8 or more characters with a mix of letters,numbers & symbols</p>
+            <div class="show">
+                <input type="checkbox" name="show" class="showpass" onclick="showpassword()" id="">
+                <l>Show Password</l>
+            </div>
+            <p class="create">
+                Already have account?
+                <a href="signin.html">Sign in</a>
+            </p>
+            <input type="submit" class="btn" value="Sign up">
+            
+        </form>
+    </div>
+    <script src="create.js"></script>
+</body>
+</html>
